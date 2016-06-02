@@ -1,0 +1,77 @@
+
+body {
+  font: 25px "Gotham", Sans-Serif; }
+
+#page-wrap {
+   width: 500px;
+   margin: 25px auto; }
+
+h1 { font-size: 22px; }
+p  { font: 14px "Gotham", Sans-Serif; }
+a  { color: black; text-decoration: none; outline: none; }
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+#calculator {
+  width: 300px;
+  height: 400px;
+  background: gray;
+  position: relative;
+  margin: 10px auto;
+  padding: 20px;
+   }
+
+#display {
+  top: 15px;
+  left: 15px;
+  width: 99%;
+  margin-bottom: 2%;
+  text-align: right;
+  font: 35px "Helvetica", Arial, Sans-Serif; }
+
+.box {
+  width: 99%;
+  height: 57%;
+  text-align: center;
+  background: #FFAB50;
+  display: inline-block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.numbers{
+  width: 24%;
+  margin: 3%;
+}
+
+.clear {
+  text-align: center;
+   background: #FFAB50;
+   display: inline-block; }
+
+.equations {
+  height: 11%;
+  width: 99%;
+  text-align: center;
+  background: #FFAB50;
+  display: inline-block;
+  margin-bottom: 2%;
+  margin-top: 2%;
+ }
+.math {
+    margin-top: 2%;
+    width: 15%;
+    margin: 1%;
+  }
+
+
+.equals-button {
+  width: 99%;
+  height: 10%;
+  text-align: center;
+  vertical-align: bottom;
+  background: orange;
+  display: inline-block; }
